@@ -1,0 +1,77 @@
+html{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    margin: 0;
+text-align: center;
+color: #211C6A;
+}
+
+/* #59B4C3 #211C6A  #EFF396 #74E291*/
+
+.top-container {
+    background-color: #59B4C3;
+    position: relative;
+    padding-top: 100px;
+    padding-bottom: 120px;
+}
+.map{
+    opacity: 0.1;
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-family: 'Water Brush', cursive;
+    font-size: 5rem;
+}
+h3{
+    font-size: 2.5rem;
+}
+h4{
+    padding-top: 40px;
+    font-size: 2rem;
+}
+
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%
+}
+.about-sub-container{
+    display: grid;
+    grid-template: 1fr / 1fr 1fr;
+    max-width: 60%;
+}
+.about-img{
+    width: 80%;
+    border-radius: 20px;
+    margin: 20px;
+}
+.text-left{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.text-right{   
+    text-align: right;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.foot-container{
+    background-color: #59B4C3;
+    height: 200px;
+    margin-top: 80px;
+}
+.contact{
+    margin: 0;
+    padding-top: 50px;
+}
